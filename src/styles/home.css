@@ -1,0 +1,32 @@
+.home_slider_container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.home_slider-inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+}
+
+.home_slider-arrow-right {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 2em;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.home_slider-arrow-left {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 2em;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}

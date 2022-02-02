@@ -1,0 +1,27 @@
+/*.home_slider_container_images {*/
+/*    width: 60%;*/
+/*    height: 700px;*/
+/*    border-radius: 10px;*/
+/*    text-align: center;*/
+/*    overflow-y: hidden;*/
+/*    overflow-x: hidden;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.home_slider_container_images-inner {*/
+/*    vertical-align: top;*/
+/*    display: flex;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
+
+.home_slider_container_images {
+    display: inline-flex;
+    height: 700px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
